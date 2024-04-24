@@ -16,6 +16,8 @@ public class Repository {
         listProducts.add(new Product("09", "Tinh chat duong am", Category.COSMETICS, 80, 715000, 63));
         listProducts.add(new Product("10", "Kem duong the", Category.COSMETICS, 80, 715000, 63));
         listProducts.add(new Product("11", "Ao thun", Category.FASHION, 250, 32000, 146));
+        System.out.println("Hello world");
+
     }
 
     public void show() {
