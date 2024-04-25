@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26899ab3-e8db-4bb0-8213-1140e79f5eb5" name="Changes" comment="Update Repository">
-      <change afterPath="$PROJECT_DIR$/Connection/src/MySQLConnectionDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/Java programming I.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part1/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part1/FreeLand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part1/TaxManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part1/Taxpayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part2/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part2/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstract/src/Part2/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShopManager/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShopManager/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShopManager/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShopManager/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShopManager/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/StudentList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/StudentList.class" beforeDir="false" />
-    </list>
+    <list default="true" id="26899ab3-e8db-4bb0-8213-1140e79f5eb5" name="Changes" comment="Connection" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,38 +53,38 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MySQLConnectionDB.executor": "Run",
-    "Application.Unnamed.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dvds/Desktop/Semester 4/mysql-connector-java-8.0.28.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Dvds/Desktop/Java/Connection/src/Main.java",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3678161",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MySQLConnectionDB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dvds/Desktop/Semester 4/mysql-connector-java-8.0.28.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dvds/Desktop/Java/Connection/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3678161&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Desktop" />
@@ -153,6 +125,7 @@
       <workItem from="1713922029420" duration="331000" />
       <workItem from="1713922376861" duration="11576000" />
       <workItem from="1713934701060" duration="480000" />
+      <workItem from="1714013783892" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -170,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713927656591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Connection">
+      <option name="closed" value="true" />
+      <created>1714013873265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714013873265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +175,8 @@
     </ignored-roots>
     <MESSAGE value="Init" />
     <MESSAGE value="Update Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Repository" />
+    <MESSAGE value="Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
