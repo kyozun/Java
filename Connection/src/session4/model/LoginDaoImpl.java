@@ -43,6 +43,24 @@ public class LoginDaoImpl implements LoginDAO {
 
     @Override
     public String checkLoginPreparedStatement(Users user) throws SQLException {
-        return "";
+        //Query
+        String query = "select user_name from users where users.user_name like ? and password like ?";
+
+        //Gọi prepare statement
+        preparedStatement = connection.prepareStatement(query);
+        preparedStatement.setString(1, user.getUser_name());
+        preparedStatement.setString(2, user.getPassword());
+
+        //Tạo ResultSet để lưu dữ liệu
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        //Lặp qua toàn bộ dữ liệu trong đb
+        while (resultSet.next()) {
+            System.out.println("Username is: " + resultSet.getString("user_name"));
+            return resultSet.getString("user_name");
+        }
+
+        return "Not in the database";
+
     }
 }

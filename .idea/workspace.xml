@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26899ab3-e8db-4bb0-8213-1140e79f5eb5" name="Changes" comment="Connection">
-      <change afterPath="$PROJECT_DIR$/Connection/src/session4/model/MySQLConnectionDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connection/src/session4/model/LoginDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Connection/src/session4/model/LoginDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <workItem from="1713922376861" duration="11576000" />
       <workItem from="1713934701060" duration="480000" />
       <workItem from="1714013783892" duration="790000" />
-      <workItem from="1714706458635" duration="2594000" />
+      <workItem from="1714706458635" duration="2982000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714708496734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Connection">
+      <option name="closed" value="true" />
+      <created>1714709191221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714709191221</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
