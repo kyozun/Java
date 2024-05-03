@@ -26,6 +26,20 @@ public class LoginConsoleUI {
     }
 
     public void loginStatementUi() throws SQLException {
+        //Get input data from user
+        System.out.println("Enter username: ");
+        String username = scanner.nextLine();
+        System.out.println("Enter password: ");
+        String password = scanner.nextLine();
+
+        user.setUser_name(username);
+        user.setPassword(password);
+
+        //Step 1: Call Controller
+        String result = loginController.loginStatementController(user);
+
+        //In ra kết quả
+        System.out.println(result);
     }
 
     public void loginPreparedStatementUi() throws SQLException {
