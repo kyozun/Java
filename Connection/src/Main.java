@@ -12,6 +12,7 @@ public class Main {
 
     public static void getAllCustomer() throws SQLException {
         Connection connection = MySQLConnectionDB.getMySQLConnection();
+
         Statement stmt = connection.createStatement();
 
         String query = "select * from customers";
